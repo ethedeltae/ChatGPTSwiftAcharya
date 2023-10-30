@@ -17,7 +17,7 @@ import GPTEncoder
 public class ChatGPTAPI: @unchecked Sendable {
     
     public enum Constants {
-        public static let defaultModel = "gpt-3.5-turbo"
+        public static let defaultModel = "gpt-3.5-turbo-0613"
         public static let defaultSystemText = "You're a helpful assistant"
         public static let defaultTemperature = 0.5
     }
